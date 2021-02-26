@@ -1,0 +1,76 @@
+/* common */
+body{
+    background-color: #1b262c;
+    color: floralwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3,h4,p,i,ul,ol,li,table,tr,td{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+a{
+    color: #4090E0;
+    text-decoration: none;
+}
+.Dbug-border{
+    /* border-style: dotted; */
+    /* border-color: forestgreen; */
+}
+.border-right{
+    border-right: darkgrey;
+    border-top: #1b262c;
+    border-bottom: #1b262c;
+    border-left: #1b262c;
+    border-style: solid;
+}
+.middle-align{
+    margin: auto;
+}
+/*  */
+.borderless-button{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer and Edge */
+    user-select: none; /* Chrome, Edge, Opera and Firefox */
+  
+    cursor: pointer;
+    text-align: center;
+    color: #0F0F0F;
+}.borderless-button:hover{
+    color: #3F3F3F;
+}.borderless-button:active{
+    color: #6F6F6F;
+}
+.img-chard{
+    height: 183px;
+    width: 161px;
+    background-color: #1b262c;
+    color: #1b262c;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 3px 3px 2px rgb(80, 75, 75);
+}
+.CV{
+    /* cursor: pointer; */
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(70, 68, 197);
+    font-size: xx-large;
+}.CV:hover{
+    color: #c98787;
+}
+.small-intro-text{
+    /* vertical-align: middle;
+     */
+     display: block;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: x-small;
+    text-align: left;
+}
