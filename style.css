@@ -13,6 +13,9 @@ a{
     color: #4090E0;
     text-decoration: none;
 }
+ul,li{
+    list-style: none;
+}
 .Dbug-border{
     /* border-style: dotted; 
      border-color: forestgreen; */
