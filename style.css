@@ -149,3 +149,60 @@ details {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
+  /* ..............for navigation bar............... */
+  .tablink {
+    background-color: #222d33;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* padding: 14px 16px; */
+    height: 60px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: rgb(85, 69, 69);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  right:0%;
+  top: 0%;
+  /* -webkit-transform: translateY(-1%);
+  -ms-transform: translateY(-5%);
+  transform: translateY(-5%); */
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  /* transition: all 0.3s ease; */
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.profile {
+  background: #565f70;
+  color: white;
+}
