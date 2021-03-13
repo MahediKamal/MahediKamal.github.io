@@ -16,6 +16,10 @@ function myFunctionGword() {
     var popup = document.getElementById("myPopupGword");
     popup.classList.toggle("show");
 }
+function myFunction3Dcar(){
+    var popup = document.getElementById("myPopup3Dcar");
+    popup.classList.toggle("show");
+}
 
 //................ for navigation bar section
 function openPage(pageName, elmnt, color) {
