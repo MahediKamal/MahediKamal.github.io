@@ -535,7 +535,7 @@ font-family: "Montserrat", Georgia, serif;}
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0; }
 
-<!-----projectcss------------>
+/* ----projectcss------------ */
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
@@ -715,7 +715,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #204c64;
+  background: #edf7ca;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
