@@ -110,7 +110,8 @@ figure {
   position: relative; }
 
 #colorlib-aside {
-  padding-top: 3em;
+  /* padding-top: 3em; */
+  padding-top: 20px;
   padding-bottom: 1px;
   float:left;
   width: 300px;
@@ -136,7 +137,7 @@ figure {
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
