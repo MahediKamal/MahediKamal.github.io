@@ -135,7 +135,7 @@ figure {
       -ms-transform: translateX(-300px);
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
-      padding-top: 4em;
+      padding-top: 1px;
       background-color: #ffffff;
         height: auto;
       } }
@@ -148,7 +148,7 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    border: 3px solid white;}
+    border: 3px solid rgb(117, 117, 117);}
 #colorlib-aside h1{
     color: #000;
   font-family: 'Raleway', sans-serif;
@@ -242,7 +242,7 @@ figure {
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
+    padding: 0 5px;
     width: 100%;}
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
@@ -251,10 +251,10 @@ figure {
     #colorlib-aside .colorlib-footer span {
       display: block;}
     #colorlib-aside .colorlib-footer ul {
-      padding: 0 20px;
+      padding: 0 5px;
       margin: 0 0 10px 0; }
       #colorlib-aside .colorlib-footer ul li {
-        padding: 0 20px;
+        padding: 0 5px;
         margin: 0 0 10px 0;
         display: inline;
         list-style: none; }
@@ -449,8 +449,8 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-footer,
 .colorlib-contact{
-  padding-top: 5em;
-  padding-bottom: 0em;
+  padding-top: 0px;
+  padding-bottom: 0px;
   clear: both;
   width: 100%;
   display: block; }
