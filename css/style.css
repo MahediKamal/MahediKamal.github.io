@@ -1617,3 +1617,9 @@ align-items: stretch;}
   cursor: pointer;
   border-radius: 16px;
 }
+
+.justified-text {
+    width: 100%;              /* remove or change as needed */
+    text-align: justify;       /* justify all lines except the last */
+    text-justify: inter-word;  /* optional: improves spacing */
+  }
