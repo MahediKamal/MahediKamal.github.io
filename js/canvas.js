@@ -85,8 +85,8 @@ class NumberElement {
   }
   
   move() {
-    this.x += this.speed
-    this.y += this.speed
+    //this.x += this.speed
+    //this.y += this.speed
   }
 }
 
